@@ -1,0 +1,37 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+
+# Virtual envs
+.venv/
+venv/
+
+# Node (if you add a frontend)
+node_modules/
+dist/
+.build/
+.next/
+out/
+
+# Env files & secrets
+.env
+.env.*
+!.env.example
+
+# Coverage/artifacts
+.coverage
+htmlcov/
+*.sqlite3
+
+# Misc
+.idea/
+.vscode/
